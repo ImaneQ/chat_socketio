@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#e66465, #9198e5);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#msgForm {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#message_input {
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    background-color: #e3e3f8cb;
+}
+
+#message_input::placeholder {
+    color: rgb(112, 96, 96);
+}
+
+#send_button {
+    background-color: rgb(132, 102, 160);
+    width: 100px;
+    height: 50px;
+}
+
+#send_button,
+#message_input {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.758);
+    color: black;
+    margin: 10px;
+}
+
+
+div {
+    height: 30px;
+    font-size: 10px;
+    width: 200px;
+    border: #6572ff 2px solid;
+    background-color: aliceblue;
+    border-radius: 15px;
+    color: black;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+
+}
